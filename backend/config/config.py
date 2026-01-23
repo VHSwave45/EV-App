@@ -1,5 +1,5 @@
 DB_HOST = "localhost"                # Database host (IP address or hostname, Bijv. localhost)
-DB_PORT =  3307               # Database port (Bijv. 3306)
+DB_PORT =  3306               # Database port (Bijv. 3306)
 DB_NAME = "evbox_manager"                # Database name
 DB_USER = "root"                # Database user (Bijv. root)
 DB_PASSWORD = "rootpassword"            # Database password
@@ -32,4 +32,5 @@ admin_twofa = "ROMXQP6GKFTFSITN6VDIHTUUFV3RJ7ON"
 # To add the token to Microsoft Authenticator you press on the big + in the app on the top-middle-right corner
 # After select "Other account (Google, Facebook, etc)". It will prompt you to scan a qr code. Just ignore that
 # and press the big blue button (Text:"Enter code manually") on the bottom. You can give any name to the "Account name"
+
 # field and enter the secret twofa code that you either generated or the one I've given you already.
