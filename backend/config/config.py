@@ -1,13 +1,13 @@
-DB_HOST = "localhost"                # Database host (IP address or hostname, Bijv. localhost)
-DB_PORT =  3306               # Database port (Bijv. 3306)
-DB_NAME = "evbox_manager"                # Database name
-DB_USER = "root"                # Database user (Bijv. root)
-DB_PASSWORD = "rootpassword"            # Database password
+DB_HOST = ""                # Database host (IP address or hostname, Bijv. localhost)
+DB_PORT =                 # Database port (Bijv. 3306)
+DB_NAME = ""                # Database name
+DB_USER = ""                # Database user (Bijv. root)
+DB_PASSWORD = ""            # Database password
 
-SERVER_HOST = "localhost"            # Server host (IP address or hostname, Bijv. localhost)
-SERVER_PORT =   8001            # Server port
+SERVER_HOST = ""            # Server host (IP address or hostname, Bijv. localhost)
+SERVER_PORT =  n            # Server port
 
-SECRET_KEY = "ppsecret"             # Secret key for JWT (should be kept secret and secure)
+SECRET_KEY = ""             # Secret key for JWT (should be kept secret and secure)
 
 serial_device = ""
 
@@ -34,3 +34,4 @@ admin_twofa = "ROMXQP6GKFTFSITN6VDIHTUUFV3RJ7ON"
 # and press the big blue button (Text:"Enter code manually") on the bottom. You can give any name to the "Account name"
 
 # field and enter the secret twofa code that you either generated or the one I've given you already.
+
